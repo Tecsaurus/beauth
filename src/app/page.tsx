@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <Auth0Provider
-    domain="test-buildingestimates.au.auth0.com"
+    domain="test.app.bedc.ai"
     clientId="oTG0p8Q2jRdH506sI6bzlJCP40BejhAH"
     authorizationParams={{
       redirect_uri: window.location.origin + '/' + window.location.search
